@@ -1,0 +1,46 @@
+
+# decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error#concept.label = Output error
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = a new {Output error} where {0, code} {1, message} 
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error.code#phrase.action = set the code of {this} to {code}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error.code#phrase.navigation = {code} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error.message#phrase.action = set the message of {this} to {message}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Error.message#phrase.navigation = {message} of {this}
+
+# decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input#concept.label = ML model input
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.Input(double,double,double,double)#phrase.navigation = a new {ML model input} where {0, clientannualrevenue} {1, clientemployeenumber} {2, clientexistenceduration} {3, clientindustry} 
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientannualrevenue#phrase.action = set the clientannualrevenue of {this} to {clientannualrevenue}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientannualrevenue#phrase.addition_setter = add {clientannualrevenue} to the clientannualrevenue of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientannualrevenue#phrase.navigation = {clientannualrevenue} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientannualrevenue#phrase.subtraction_setter = subtract {clientannualrevenue} from the clientannualrevenue of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientemployeenumber#phrase.action = set the clientemployeenumber of {this} to {clientemployeenumber}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientemployeenumber#phrase.addition_setter = add {clientemployeenumber} to the clientemployeenumber of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientemployeenumber#phrase.navigation = {clientemployeenumber} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientemployeenumber#phrase.subtraction_setter = subtract {clientemployeenumber} from the clientemployeenumber of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientexistenceduration#phrase.action = set the clientexistenceduration of {this} to {clientexistenceduration}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientexistenceduration#phrase.addition_setter = add {clientexistenceduration} to the clientexistenceduration of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientexistenceduration#phrase.navigation = {clientexistenceduration} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientexistenceduration#phrase.subtraction_setter = subtract {clientexistenceduration} from the clientexistenceduration of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientindustry#phrase.action = set the clientindustry of {this} to {clientindustry}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientindustry#phrase.addition_setter = add {clientindustry} to the clientindustry of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientindustry#phrase.navigation = {clientindustry} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input.clientindustry#phrase.subtraction_setter = subtract {clientindustry} from the clientindustry of {this}
+
+# decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output#concept.label = ML model output
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.Output(java.lang.Double,java.util.List)#phrase.navigation = a new {ML model output} where {0, predictions} {1, score} 
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.addTo_scores(java.lang.Double)#phrase.action = add {0} to the scores of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.clear_scores()#phrase.action = clear the scores of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.error#phrase.action = set the error of {this} to {error}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.error#phrase.clearer = clear the error of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.error#phrase.navigation = {error} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.inError()#phrase.navigation = {this} is in error
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.predictions#phrase.action = set the predictions of {this} to {predictions}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.predictions#phrase.addition_setter = add {predictions} to the predictions of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.predictions#phrase.navigation = {predictions} of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.predictions#phrase.subtraction_setter = subtract {predictions} from the predictions of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.removeFrom_scores(java.lang.Double)#phrase.action = remove {0} from the scores of {this}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.run(decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Input)#phrase.navigation = predict({0})
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.scores#phrase.action = set the scores of {this} to {score}
+decisions.usr183_client_onboarding_decision_2.client_onboarding_lab.usr183MLScoreboard.Output.scores#phrase.navigation = {score} of {this}
